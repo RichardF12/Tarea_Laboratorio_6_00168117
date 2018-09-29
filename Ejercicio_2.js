@@ -3,7 +3,7 @@ var converter = {
     {   
         if(typeof num == 'number')
         {
-            if(type == 'L' || 'l')
+            if(type == 'L' || 'l') //No esta realizando la verificacion del type
             {
                 if((from == 'm') && (to == 'cm')) 
                 {
@@ -37,7 +37,7 @@ var converter = {
                 }
             }
 
-            else if(type == 'T' || 't')
+            else if(type == 'T' || 't')// No esta realizando la verificacion del type
             {
                 if((from == 'C' || 'c') && (to == 'F' || 'f')) 
                 {
