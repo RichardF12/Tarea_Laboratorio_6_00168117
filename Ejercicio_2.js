@@ -35,6 +35,7 @@ var converter = {
                     num = num * 3.2808399;
                     return `${num}ft`;
                 }
+                else{console.log("Unidad no valida")}
             }
 
             else if(type == 'T' || 't')// No esta realizando la verificacion del type
